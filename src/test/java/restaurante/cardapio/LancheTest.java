@@ -35,4 +35,16 @@ class LancheTest {
     void deveLancarExcecaoQuandoPrecoForNegativo() {
         assertThrows(IllegalArgumentException.class, () -> lanche.setPreco(-0.90));
     }
+
+    @Test
+    void xBaconComCheddarCustaVinteESeis() {
+        ItemCardapio item = new ComCheddar(LancheFactory.xBacon());
+        assertEquals(26.00, item.getPreco(), 0.001);
+    }
+
+    @Test
+    void deveMostrarIngredienteRetiradoNaDescricao() {
+        lanche.setCebola(false);
+        assertTrue(lanche.getDescricao().contains("sem cebola"));
+    }
 }
