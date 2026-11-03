@@ -1,4 +1,7 @@
 package restaurante.cardapio;
 
-public class ItemCardapio {
+public interface ItemCardapio {
+    String getDescricao();
+
+    double getPreco();
 }
