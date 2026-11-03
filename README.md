@@ -75,4 +75,4 @@ mvn test
 
 ## 🎥 Demonstração
 
-Vídeo do sistema em funcionamento: **adicione aqui o link depois de publicar o vídeo**.
+Vídeo do sistema em funcionamento: https://youtube.com/watch?v=O5Ygk1N4mzw&feature=shared
